@@ -73,8 +73,7 @@
 }
 
 .explore ul li a:hover {
-    text-shadow: 0.5px 0.5px 2px #8e0b0a, -0.5px -0.5px 2px #8e0b0a;
-    color: #f9e50d;
+    color: #3f1313;
 }
 
 .explore ul summary {
@@ -133,15 +132,15 @@ h2 {
 }
 
 .active.fade-left {
-    animation: fade-left 1s ease-in;
+    animation: fade-left 0.5s ease-in;
 }
 
 .active.fade-right {
-    animation: fade-right 1s ease-in;
+    animation: fade-right 0.5s ease-in;
 }
 
 .active.fade-bottom {
-    animation: fade-bottom 1s ease-in;
+    animation: fade-bottom 0.5s ease-in;
 }
 
 /**** helix animation implementation ****/
