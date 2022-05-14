@@ -87,6 +87,26 @@ section {
     text-align: justify;
 }
 
+/**** intro section ****/
+.intro-container {
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+}
+
+.intro-paragraph {
+    padding-right: 3rem;
+}
+
+.intro-image {
+    align-self: center;
+    width: 100%;
+}
+
+.intro-image img {
+    width: 100%;
+}
+
 /**** about section ****/
 /**** headings of about section ****/
 .about h1,
@@ -97,11 +117,12 @@ h2 {
     color: rgb(64, 64, 64);
     margin: 0;
     text-align: left;
+    margin-bottom: 3rem;
 }
 
 .about-text-container {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     justify-content: space-between;
     align-items: center;
     gap: 1rem;
@@ -115,7 +136,8 @@ h2 {
     width: 100%;
 }
 
-.about-paragraph {
+.about-paragraph,
+.intro p {
     font-size: 1.2rem;
     font-weight: 400;
     line-height: 1.6;
@@ -241,6 +263,19 @@ h2 {
         display: none;
     }
 
+    .intro-container {
+        flex-direction: column;
+    }
+
+    .intro-paragraph {
+        padding-right: 0;
+    }
+
+    .intro-image {
+        width: 30%;
+        margin: auto;
+    }
+
     .about h1 {
         margin-bottom: 2rem;
     }
@@ -285,11 +320,31 @@ h2 {
 
 @media only screen and (max-width:650px) {
 
+    h2,
     .about h1 {
         font-size: 2.6rem;
     }
 
+    .intro p,
     p {
         font-size: medium;
+    }
+
+    .intro-container{
+        gap: 0;
+    }
+
+    .intro h2 {
+        margin-bottom: 1rem;
+    }
+
+    .intro-image {
+        width: 100%;
+        text-align: center;
+    }
+
+    .intro-image img {
+        width: 60%;
+        margin: 0 auto;
     }
 }
