@@ -4,7 +4,6 @@ This is a repository for simple static website made during internship project fo
 
 It is made using HTML, CSS and some JavaScript along with Bootstrap and few jQuery codes.
 
-
 - [index.html](https://github.com/sthsuyash/Corporate-Site/blob/main/index.html) contains the main home page html codes
 
 - [assets](https://github.com/sthsuyash/Corporate-Site/tree/main/assets) folder contains all the extra required files of the site(all css, images and other pages).
