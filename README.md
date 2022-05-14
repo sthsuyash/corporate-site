@@ -13,4 +13,4 @@ It is made using HTML, CSS and some JavaScript along with Bootstrap and few jQue
 
 ScreenShot:
 
-![ScreenShot of Home Page](https://github.com/sthsuyash/Corporate-Site/tree/main/assets/images/ss.jpg)
+![ScreenShot of Home Page](assets/images/ss.jpg)
