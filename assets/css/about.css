@@ -43,6 +43,10 @@ main {
     width: 100%;
 }
 
+.bread {
+    margin-left: 5rem;
+}
+
 @media only screen and (max-width:1000px) {
     .container-div {
         flex-direction: column;
@@ -54,9 +58,17 @@ main {
 }
 
 @media only screen and (max-width:580px) {
+    .bread {
+        margin-left: 3rem;
+    }
+
     .all-contain h1 {
-        font-size: 4rem;
+        font-size: 2.7rem;
         margin: 0 3rem;
+    }
+
+    .all-contain p {
+        font-size: 1rem;
     }
 
     .container-div {

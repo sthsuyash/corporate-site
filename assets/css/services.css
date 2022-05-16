@@ -47,6 +47,7 @@ hr {
 
 .card h2 {
     margin: 1rem auto;
+    text-align: center;
 }
 
 @media only screen and (min-width:651px) and (max-width:1000px) {
