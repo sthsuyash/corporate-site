@@ -24,4 +24,4 @@ It is made using HTML, CSS and some JavaScript along with Bootstrap and few jQue
 
 ## Home Page
 
-[![ScreenShot of Home Page](assets/images/ss.jpg)](https://sthsuyash.github.io/Corporate-Site/)
+[![ScreenShot of Home Page](assets/images/ss.jpg)](https://sthsuyash.github.io/corporate-site/)
